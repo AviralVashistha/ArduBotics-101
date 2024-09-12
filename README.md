@@ -1,4 +1,4 @@
-# Arduino: Foundations
+# Arduino: Basics
 
 Welcome to the foundational guide on Arduino. This guide will walk you through the core components and principles of Arduino, giving you both theoretical knowledge and hands-on experience with real-world applications.
 
@@ -248,9 +248,9 @@ void loop() {
   Serial.println(counter); 
   
   digitalWrite(LED, HIGH);  
-  delay(1000);          
+  delay(1000);        
   digitalWrite(LED, LOW);   
-  delay(1000);          
+  delay(1000);        
 }
 ```
 
